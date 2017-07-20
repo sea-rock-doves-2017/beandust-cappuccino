@@ -11,15 +11,18 @@ a {
   max-width: 150px;
 }
 
-div.left {
+.left {
     float: left;
-    width: 100px;
-    height: 20px;
+    width: 150px;
+    height: 0;
     margin-right: 8px;
-    background-color: linen;
 }
-div.right {
+.right {
     float: left;
-    margin-left: 108px;
-    background-color: skyblue;
+    height: 158px;
+    margin-left: 158px;
 }​
+
+.each {
+  padding: 10px;
+}
