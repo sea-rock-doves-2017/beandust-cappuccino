@@ -29,6 +29,8 @@ app.use('/menu', menu);
 app.use('/mission', mission);
 app.use('/location', location);
 
+// remove later????
+app.disable('etag');
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
