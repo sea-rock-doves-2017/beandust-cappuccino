@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var mission = require('./routes/mission');
 var menu = require('./routes/menu');
+var about = require('./routes/about');
 var location = require('./routes/location');
 
 var app = express();
@@ -28,6 +29,7 @@ app.use('/', index);
 app.use('/menu', menu);
 app.use('/mission', mission);
 app.use('/location', location);
+app.use('/about', about);
 
 // remove later????
 app.disable('etag');

@@ -6,3 +6,23 @@ body {
 a {
   color: #00B7FF;
 }
+
+.portrait {
+  max-width: 150px;
+}
+
+.left {
+    float: left;
+    width: 150px;
+    height: 0;
+    margin-right: 8px;
+}
+.right {
+    float: left;
+    height: 158px;
+    margin-left: 158px;
+}​
+
+.each {
+  padding: 10px;
+}
