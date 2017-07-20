@@ -26,3 +26,20 @@ a {
 .each {
   padding: 10px;
 }
+
+.menu-images {
+  margin: 20px 20px 0 0;
+  border: 10px double #AA6C39;
+  float: left;
+  width: 350px;
+  height: 270px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.item-container {
+  float: left;
+  display: block;
+  margin-left: 10px;
+  margin-right: 30px;
+}
