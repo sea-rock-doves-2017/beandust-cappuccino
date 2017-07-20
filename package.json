@@ -1,0 +1,19 @@
+{
+  "name": "beandust-cappuccino",
+  "version": "1.0.0",
+  "description": "Static pages for Beandust Coffeeshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sea-rock-doves-2017/beandust-cappuccino.git"
+  },
+  "author": "knweber joel-g jaesley gracenoh153",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sea-rock-doves-2017/beandust-cappuccino/issues"
+  },
+  "homepage": "https://github.com/sea-rock-doves-2017/beandust-cappuccino#readme"
+}
