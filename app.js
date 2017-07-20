@@ -39,7 +39,7 @@ app.use(function(req, res, next) {
   next(err);
 });
 
-// app.disable('etag');
+app.disable('etag');
 
 // error handler
 app.use(function(err, req, res, next) {
