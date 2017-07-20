@@ -1,7 +1,13 @@
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
+  body#layout
+  nav
+    button#about About
+    button#location Location
+    button#menu Menu
+    button#mission Mission
+    div#contact
+      span.address 401 5th Ave
+      span.hours Tues - Sun 12a-12p; Mon 4a-11a
+  main
     block content
