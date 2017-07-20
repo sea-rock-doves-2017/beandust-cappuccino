@@ -6,3 +6,20 @@ body {
 a {
   color: #00B7FF;
 }
+
+.portrait {
+  max-width: 150px;
+}
+
+div.left {
+    float: left;
+    width: 100px;
+    height: 20px;
+    margin-right: 8px;
+    background-color: linen;
+}
+div.right {
+    float: left;
+    margin-left: 108px;
+    background-color: skyblue;
+}​
