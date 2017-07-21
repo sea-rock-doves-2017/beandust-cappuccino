@@ -164,12 +164,12 @@ nav button:hover {
   font-size: 17px;
 }
 
-.menu-items {
+.drink-menu-items {
   margin: 0 auto;
   padding: 0% 14%;
 }
 
-.item-container {
+.drink-container {
   display: inline-block;
   margin-left: 230px;
   font-weight: bold;
@@ -201,3 +201,22 @@ nav button:hover {
   font-size: 17px;
 }
 
+.pastry-container {
+  display: inline-block;
+  margin-left: 230px;
+  font-weight: bold;
+}
+
+.pastry-price {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 80px;
+  font-weight: bold;
+}
+
+.with-extras {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 80px;
+  font-weight: bold;
+}
