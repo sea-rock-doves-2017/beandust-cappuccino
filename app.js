@@ -11,6 +11,7 @@ var menu = require('./routes/menu');
 var about = require('./routes/about');
 var location = require('./routes/location');
 var shop = require('./routes/shop');
+var success = require('./routes/success');
 
 var app = express();
 
@@ -32,6 +33,7 @@ app.use('/menu', menu);
 app.use('/mission', mission);
 app.use('/location', location);
 app.use('/about', about);
+app.use('/success', success);
 
 // remove later????
 app.disable('etag');
