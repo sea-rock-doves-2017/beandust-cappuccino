@@ -1,6 +1,6 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -39,12 +39,14 @@ div#contact {
 }
 
 #main {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
   max-width: 75%;
   background-color: hsla(31, 70%, 80%, 0.5);
-  height: 1000px;
   padding: 5px 40px;
   border-radius: 15px;
+  margin: 0px auto;
 }
 
 nav {
