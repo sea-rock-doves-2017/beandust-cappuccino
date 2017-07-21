@@ -10,8 +10,12 @@ body {
 #col {
   width: 100%;
   display: block;
-  text-align: center;
+  margin: 0 auto;
 }
+
+/*.inside-col {
+  display: inline-block;
+}*/
 
 #col h3 {
   color: #004400;
@@ -19,11 +23,6 @@ body {
   -webkit-text-stroke: 1px #88CC88;
   text-shadow: 1px 1px 1px #fff, 1px 1px 1px #fff;
   font-size: 27px;
-}
-
-.inside-col {
-  display: inline-block;
-  margin: 10px 20px;
 }
 
 a {
@@ -72,6 +71,7 @@ a {
 
 div#contact {
   font-weight: bold;
+  font-size: 25px;
   text-shadow: .2px .2px .2px #fff, .2px .2px .2px #fff;
 }
 
@@ -266,7 +266,7 @@ div#contact {
 
 .pastry-menu-items {
   margin: 0 auto;
-  padding: 0% 14%;
+  padding: 0% 15%;
 }
 
 .pastry-container {
