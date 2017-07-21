@@ -86,7 +86,7 @@ nav button:hover {
 .header {
   text-align: center;
   color: #801515;
-  -webkit-text-stroke: 1px #FFAAAA; 
+  -webkit-text-stroke: 1px #FFAAAA;
   text-shadow: 1px 1px 1px #FFFFFF, 1px 1px 1px #FFFFFF;
   font-size: 40px;
 }
@@ -116,7 +116,7 @@ nav button:hover {
 .menu-container h2 {
   color: #004400;
   text-align: left;
-  -webkit-text-stroke: 1px #88CC88; 
+  -webkit-text-stroke: 1px #88CC88;
   text-shadow: 1px 1px 1px #fff, 1px 1px 1px #fff;
   font-size: 27px;
 }
@@ -171,3 +171,12 @@ nav button:hover {
   font-size: 17px;
 }
 
+.form-container {
+  background-color: linen;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.label {
+  padding: 5px;
+}
