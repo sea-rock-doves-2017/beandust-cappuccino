@@ -1,6 +1,6 @@
 body {
   padding: 50px;
-  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -24,7 +24,7 @@ a {
     height: 158px;
     margin-left: 158px;
     margin-top: 20px;
-}
+}​
 
 .each {
   padding: 10px;
@@ -33,7 +33,8 @@ a {
 
 #layout {
   background-image: url('../images/homepage_image.jpg');
-  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position:center;
 }
 
 div#contact {
@@ -45,6 +46,7 @@ div#contact {
   display: flex;
   flex-direction: column;
   min-height: 80vh;
+  margin: 0 auto;
   max-width: 75%;
   background-color: hsla(31, 70%, 80%, 0.5);
   /*background-color: #FD1AA*/
@@ -53,13 +55,31 @@ div#contact {
   border-radius: 15px;
 }
 
-.homepage {
-  margin: 0 auto;
-  max-width: 75%;
-  height: 800px;
-  padding: 5px 40px;
-  border-radius: 15px;
-  margin: 0px auto;
+.info {
+  padding: 0 5px;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+}
+
+.content {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  color: #801515;
+ -webkit-text-stroke: 1px #FFAAAA;
+ text-shadow: 1px 1px 1px #FFFFFF, 1px 1px 1px #FFFFFF;
+ font-size: 40px;
+}
+
+.source {
+  text-align: center;
+  margin: 0;
+  padding: 0
 }
 
 nav {
@@ -94,31 +114,29 @@ nav button:hover {
   text-align: center;
 }
 
-.info {
-  padding: 0 5px;
+.homepage {
+  margin: 0 auto;
+  max-width: 75%;
+  height: 800px;
+  padding: 5px 40px;
+  border-radius: 15px;
 }
 
-.quote {
+.box {
+  display: block;
+  margin: 0 auto;
+  background-color: #FFD1AA;
+  color: #552600;
+  border-radius: 10px;
+  width: 75%;
   text-align: center;
-  font-style: italic;
+  font-family: 'Pacifico', cursive;
+  font-size: 90px;
 }
 
-.content {
-  text-align: center;
-}
-
-.header {
-  text-align: center;
-  color: #801515;
-  -webkit-text-stroke: 1px #FFAAAA;
-  text-shadow: 1px 1px 1px #FFFFFF, 1px 1px 1px #FFFFFF;
-  font-size: 40px;
-}
-
-.source {
-  text-align: center;
-  margin: 0;
-  padding: 0
+.title {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .menu-container {
