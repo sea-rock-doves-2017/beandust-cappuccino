@@ -1,5 +1,31 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  doctype html
+  html.
+    <div class="homepage">
+    <div class="name">
+    <div class="tile is-ancestor">
+    <div class="tile is-parent">
+    <article class="tile is-child box">
+    <p class="title">Foo</p>
+    <p class="subtitle">Bar</p>
+    </article>
+    </div>
+    </div>
+    </div>
+    <footer>
+    <nav class="home">
+    <button><a href='/' type='button'>Home</a></button>
+    <button><a href='/about' type='button'>About Us</a></button>
+    <button><a href='/menu' type='button'>Menu</a></button>
+    <button><a href='/mission' type='button'>Mission</a></button>
+    <button><a href='/location' type='button'>Location</a></button>
+    <button><a href='/shop' type='button'>Shop</a></button>
+    <style>
+      #guts {
+        display: none;
+        }
+    </style>
+    </footer>
+    </div>
