@@ -101,9 +101,9 @@ div#contact {
 .header {
   text-align: center;
   color: #801515;
- -webkit-text-stroke: 1px #FFAAAA;
- text-shadow: 1px 1px 1px #FFFFFF, 1px 1px 1px #FFFFFF;
- font-size: 40px;
+  -webkit-text-stroke: 1px #FFAAAA;
+  text-shadow: 1px 1px 1px #FFFFFF, 1px 1px 1px #FFFFFF;
+  font-size: 40px;
 }
 
 .source {
@@ -212,10 +212,21 @@ div#contact {
   font-weight: bold;
 }
 
-.shopify-buy-frame--product {
+.item-container h2 {
+  color: #004400;
+  text-align:left;
+  -webkit-text-stroke: 1px #88CC88;
+}
+
+.product {
   background-color: linen;
   padding: 20px;
-  display: inline;
+  float: left;
+  height: 500px;
+}
+
+.product-container {
+  text-align: center;
 }
 
 .twelve-oz-price p {
