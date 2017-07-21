@@ -9,6 +9,7 @@ a {
 
 .portrait {
   max-width: 150px;
+  border-radius: 50px;
 }
 
 .left {
@@ -27,6 +28,42 @@ a {
   padding: 10px;
 }
 
+
+#layout {
+  background-image: url('../images/homepage_image.jpg');
+}
+
+#main {
+  margin: 0 auto;
+  max-width: 75%;
+  background-color: #FFD1AA;
+  height: 1000px;
+  padding: 5px 40px;
+  border-radius: 15px;
+}
+
+nav {
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav button {
+  width: 16%;
+  height: 30px;
+  background-color: #88CC88;
+  border-radius: 5px;
+  margin: 7px 10px 10px 10px;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+nav button:hover {
+  background-color: #407F7F;
+  color: white;
+}
+
+.info {
+  padding: 0 5px;
+}
 
 .quote {
   text-align: center;
