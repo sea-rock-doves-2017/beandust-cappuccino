@@ -84,9 +84,9 @@ nav button:hover {
 
 .header {
   text-align: center;
-  color: #004400;
-  -webkit-text-stroke: 1px #88CC88; 
-  text-shadow: 1px 1px 1px #fff, 1px 1px 1px #fff;
+  color: #801515;
+  -webkit-text-stroke: 1px #FFAAAA; 
+  text-shadow: 1px 1px 1px #FFFFFF, 1px 1px 1px #FFFFFF;
   font-size: 40px;
 }
 
