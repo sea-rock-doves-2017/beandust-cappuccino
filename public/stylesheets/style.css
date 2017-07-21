@@ -44,7 +44,7 @@ div#contact {
   max-width: 75%;
   background-color: hsla(31, 70%, 80%, 0.5);
   /*background-color: #FD1AA*/
-  height: 1000px;
+  height: 1250px;
   padding: 5px 40px;
   border-radius: 15px;
 }
@@ -52,7 +52,7 @@ div#contact {
 .homepage {
   margin: 0 auto;
   max-width: 75%;
-  height: 1000px;
+  height: 800px;
   padding: 5px 40px;
   border-radius: 15px;
 }
@@ -60,28 +60,31 @@ div#contact {
 nav {
   margin: 0 auto;
   text-align: center;
+  font-family: 'Dosis', sans-serif;
 }
 
 nav button {
   color: white;
   width: 8%;
   height: 45px;
-  background-color: #AA6C39;
+  background-color: #804515;
   border-radius: 10px;
   margin: 7px 10px 10px 10px;
   font-size: 200%;
+  font-family: 'Dosis', sans-serif;
 }
 
 nav button:hover {
-  background-color: #AA6C39;
+  background-color: #804515;
   color: white;
+  font-family: 'Dosis', sans-serif;
 }
 
 .home {
   position: absolute;
   right: 0;
   left: 0;
-  bottom: 0;
+  bottom: 100px;
   padding: 1rem;
   text-align: center;
 }
@@ -135,18 +138,19 @@ nav button:hover {
   -webkit-text-stroke: 1px #88CC88;
 }
 
-.name {
-
-}
-
-.tile {
-
-}
-
 .box {
-
+  display: block;
+  margin: 0 auto;
+  background-color: #FFD1AA;
+  color: #552600;
+  border-radius: 10px;
+  width: 75%;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 90px;
 }
 
 .title {
-  
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
