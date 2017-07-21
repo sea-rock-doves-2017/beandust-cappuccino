@@ -76,7 +76,6 @@ div#contact {
 }
 
 #main {
-  /*display: flex;*/
   flex-direction: column;
   min-height: 70vh;
   margin: 0 auto;
@@ -84,7 +83,6 @@ div#contact {
   background-color: hsla(31, 70%, 80%, 0.5);
   padding: 5px 40px;
   border-radius: 15px;
-  height: 800px;
 }
 
 .info {
