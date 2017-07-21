@@ -254,6 +254,16 @@ div#contact {
   font-size: 17px;
 }
 
+.form-container {
+  background-color: linen;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.label {
+  padding: 5px;
+}
+
 .pastry-menu-items {
   margin: 0 auto;
   padding: 0% 14%;
