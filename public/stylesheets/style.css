@@ -27,6 +27,10 @@ a {
   padding: 10px;
 }
 
+.menu-container {
+  width: 100%;
+}
+
 .menu-images {
   margin: 20px 20px 0 0;
   border: 10px double #AA6C39;
@@ -42,4 +46,10 @@ a {
   display: block;
   margin-left: 10px;
   margin-right: 30px;
+}
+
+.item-container h2 {
+  color: #2D882D;
+  text-shadow:1px 1px 3px #55AA55, 1px 1px 3px #55AA55;
+  text-align:left;
 }
