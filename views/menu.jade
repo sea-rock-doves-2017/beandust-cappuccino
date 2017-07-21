@@ -4,10 +4,58 @@ block content
 
   h1.header Our Menu
   .menu-container
+    .menu-images
+      img(border="0" src="images/cappuccino2.png")
+    .menu-images
+      img(border="0" src="images/espresso.png")
+    .item-container
+      h2 Drinks
+      p Espresso
+      p Macchiato
+      p Latte
+      p Cappuccino
+      p Mocha
+      p Americano
+      p Americano Misto
+      p Cafe Au Lait
+      p Drip
+      p Tea
+      p Cocoa
+      p Chai Latte
+    .twelve-oz-price
+      h2 12oz
+      p 2.25
+      p 3.00
+      p 3.75
+      p 3.75
+      p 4.00
+      p 2.75
+      p 3.50
+      p 2.75
+      p 2.25
+      p 2.75
+      p 3.25
+      p 3.50
+    .sixteen-oz-price
+      h2 16oz
+      p 3.00
+      p 3.50
+      p 4.25
+      p 4.25
+      p 4.50
+      p -
+      p 4.00
+      p 3.25
+      p 2.50
+      p -
+      p 3.75
+      p 4.00
     .image-container
       #menu-image1
         img(border="0" src="images/cappuccino2.png")
       #menu-image2
+        img(border="0" src="images/cookies2.png")
+      #menu-image3
         img(border="0" src="images/espresso.png")
     .drink-menu-items
       .drink-container
@@ -71,3 +119,14 @@ block content
         h2 With Extras
         p 3.99
         p 3.49
+  .form-container
+    p Enter your order here and it will be ready for pickup in ten minutes. If we have any questions about your order, we will contact you at the phone number you provide.
+    form(method='post', action='/orders', name='order')
+      span.label Customer Name
+      input(type='text', name='name')
+      span.label Order Description
+      input(type='text', name='order')
+      span.label Contact Number
+      input(type='text', name='phone')
+    a(href='/success')
+      input(type='button', value='Submit Order')
