@@ -10,6 +10,7 @@ var mission = require('./routes/mission');
 var menu = require('./routes/menu');
 var about = require('./routes/about');
 var location = require('./routes/location');
+var shop = require('./routes/shop');
 
 var app = express();
 
@@ -26,6 +27,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
+app.use('/shop', shop);
 app.use('/menu', menu);
 app.use('/mission', mission);
 app.use('/location', location);
