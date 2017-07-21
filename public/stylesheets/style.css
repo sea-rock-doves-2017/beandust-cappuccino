@@ -1,10 +1,45 @@
 body {
   padding: 50px;
-  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#location.body {
+  text-align: center;
+}
+
+#col {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+#col h3 {
+  color: #004400;
+  text-align: center;
+  -webkit-text-stroke: 1px #88CC88;
+  text-shadow: 1px 1px 1px #fff, 1px 1px 1px #fff;
+  font-size: 27px;
+}
+
+.inside-col {
+  display: inline-block;
+  margin: 10px 20px;
 }
 
 a {
-  color: #00B7FF;
+  color: white;
+  text-decoration: none;
+}
+
+#location.body {
+  text-align: center;
+}
+
+#col {
+  text-align: center;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
 }
 
 .portrait {
@@ -23,7 +58,7 @@ a {
     height: 158px;
     margin-left: 158px;
     margin-top: 20px;
-}
+}​
 
 .each {
   padding: 10px;
@@ -41,33 +76,13 @@ div#contact {
 }
 
 #main {
-  display: flex;
   flex-direction: column;
-  min-height: 80vh;
+  min-height: 70vh;
+  margin: 0 auto;
   max-width: 75%;
   background-color: hsla(31, 70%, 80%, 0.5);
   padding: 5px 40px;
   border-radius: 15px;
-  margin: 0px auto;
-}
-
-nav {
-  margin: 0 auto;
-  text-align: center;
-}
-
-nav button {
-  width: 16%;
-  height: 30px;
-  background-color: #88CC88;
-  border-radius: 5px;
-  margin: 7px 10px 10px 10px;
-  box-shadow: 3px 3px 3px #888888;
-}
-
-nav button:hover {
-  background-color: #407F7F;
-  color: white;
 }
 
 .info {
@@ -97,20 +112,78 @@ nav button:hover {
   padding: 0
 }
 
+
+
+.home {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 100px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.homepage {
+  margin: 0 auto;
+  max-width: 75%;
+  height: 800px;
+  padding: 5px 40px;
+  border-radius: 15px;
+}
+
+.box {
+  display: block;
+  margin: 0 auto;
+  background-color: #FFD1AA;
+  color: #552600;
+  border-radius: 10px;
+  width: 75%;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 90px;
+}
+
+.title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .menu-container {
   width: 100%;
+  display: block;
   position: relative;
 }
 
-.menu-images {
+.image-container {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
+
+#menu-image1 {
+  margin: 0 auto;
   border: 12px double #801515;
   display: inline-block;
   width: 350px;
   height: 270px;
-  margin-top: 10px;
-  margin-left: 40px;
-  margin-right: 30px;
-  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 8%;
+}
+
+#menu-image2 {
+  border: 12px double #801515;
+  display: inline-block;
+  width: 350px;
+  height: 270px;
+  margin-right: 10px;
+}
+
+#menu-image3 {
+  border: 12px double #801515;
+  display: inline-block;
+  width: 350px;
+  height: 270px;
+
 }
 
 .menu-container h2 {
@@ -125,9 +198,14 @@ nav button:hover {
   color: #000000;
   text-align: left;
   font-size: 17px;
+  }
+
+.drink-menu-items {
+  margin: 0 auto;
+  padding: 0% 14%;
 }
 
-.item-container {
+.drink-container {
   display: inline-block;
   margin-left: 230px;
   font-weight: bold;
@@ -146,10 +224,15 @@ nav button:hover {
   -webkit-text-stroke: 1px #88CC88;
 }
 
-.shopify-buy-frame--product {
+.product {
   background-color: linen;
   padding: 20px;
-  display: inline;
+  float: left;
+  height: 500px;
+}
+
+.product-container {
+  text-align: center;
 }
 
 .twelve-oz-price p {
@@ -179,4 +262,75 @@ nav button:hover {
 
 .label {
   padding: 5px;
+}
+
+.pastry-menu-items {
+  margin: 0 auto;
+  padding: 0% 14%;
+}
+
+.pastry-container {
+  display: inline-block;
+  margin-left: 230px;
+  font-weight: bold;
+}
+
+.pastry-price {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 80px;
+  font-weight: bold;
+}
+
+.pastry-price p {
+  color: #000000;
+  text-align: center;
+  font-size: 17px;
+}
+
+.with-extras {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 80px;
+  font-weight: bold;
+}
+
+.with-extras p {
+  color: #000000;
+  text-align: center;
+  font-size: 17px;
+}
+
+nav {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+nav.home button {
+  color: white;
+  width: 8%;
+  height: 45px;
+  background-color: #804515;
+  border-radius: 10px;
+  margin: 7px 10px 10px 10px;
+  font-size: 200%;
+  font-family: 'Dosis', sans-serif;
+}
+
+nav#guts button {
+  color: white;
+  width: 12%;
+  height: 45px;
+  background-color: #804515;
+  border-radius: 10px;
+  margin: 7px 10px 10px 10px;
+  font-size: 200%;
+  font-family: 'Dosis', sans-serif;
+}
+
+nav button:hover {
+  background-color: #804515;
+  color: white;
+  font-family: 'Dosis', sans-serif;
 }
