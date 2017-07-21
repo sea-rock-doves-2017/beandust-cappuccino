@@ -3,6 +3,17 @@ body {
   font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+#location.body {
+  text-align: center;
+}
+
+#col {
+  text-align: center;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+}
+
 a {
   color: #00B7FF;
 }
@@ -43,7 +54,7 @@ div#contact {
 #main {
   display: flex;
   flex-direction: column;
-  min-height: 80vh;
+  min-height: 70vh;
   max-width: 75%;
   background-color: hsla(31, 70%, 80%, 0.5);
   padding: 5px 40px;
