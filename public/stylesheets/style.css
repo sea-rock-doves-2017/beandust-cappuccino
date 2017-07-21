@@ -3,6 +3,29 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+#location.body {
+  text-align: center;
+}
+
+#col {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+#col h3 {
+  color: #004400;
+  text-align: center;
+  -webkit-text-stroke: 1px #88CC88;
+  text-shadow: 1px 1px 1px #fff, 1px 1px 1px #fff;
+  font-size: 27px;
+}
+
+.inside-col {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -53,16 +76,13 @@ div#contact {
 }
 
 #main {
-  /*display: flex;*/
   flex-direction: column;
   min-height: 70vh;
   margin: 0 auto;
   max-width: 75%;
   background-color: hsla(31, 70%, 80%, 0.5);
-  /*background-color: #FD1AA*/
   padding: 5px 40px;
   border-radius: 15px;
-  height: 800px;
 }
 
 .info {
@@ -130,15 +150,18 @@ div#contact {
 
 .menu-container {
   width: 100%;
+  display: block;
   position: relative;
 }
 
-.menu-items {
+.image-container {
   margin: 0 auto;
-  padding: 0% 14%;
+  padding: 0% 16%;
 }
 
-.menu-image1 {
+#menu-image1 {
+  margin: 0 auto;
+  padding: 0% 14%;
   border: 12px double #801515;
   display: inline-block;
   width: 350px;
@@ -146,11 +169,15 @@ div#contact {
   margin-right: 10%;
 }
 
-.menu-image2 {
+#menu-image2 {
   border: 12px double #801515;
   display: inline-block;
   width: 350px;
   height: 270px;
+/*  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 30px;
+  margin-bottom: 10px;*/
 }
 
 .menu-container h2 {
@@ -167,7 +194,12 @@ div#contact {
   font-size: 17px;
 }
 
-.item-container {
+.drink-menu-items {
+  margin: 0 auto;
+  padding: 0% 14%;
+}
+
+.drink-container {
   display: inline-block;
   margin-left: 230px;
   font-weight: bold;
@@ -203,6 +235,26 @@ div#contact {
   color: #000000;
   text-align: center;
   font-size: 17px;
+}
+
+.pastry-container {
+  display: inline-block;
+  margin-left: 230px;
+  font-weight: bold;
+}
+
+.pastry-price {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 80px;
+  font-weight: bold;
+}
+
+.with-extras {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 80px;
+  font-weight: bold;
 }
 
 nav {
