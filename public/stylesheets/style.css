@@ -31,12 +31,18 @@ a {
 
 #layout {
   background-image: url('../images/homepage_image.jpg');
+  background-attachment: fixed;
+}
+
+div#contact {
+  font-weight: bold;
 }
 
 #main {
   margin: 0 auto;
   max-width: 75%;
-  background-color: #FFD1AA;
+  background-color: hsla(31, 70%, 80%, 0.5);
+  /*background-color: #FD1AA*/
   height: 1000px;
   padding: 5px 40px;
   border-radius: 15px;
@@ -86,27 +92,26 @@ nav button:hover {
 
 .menu-container {
   width: 100%;
+  position: relative;
 }
 
 .menu-images {
-  margin: 20px 20px 0 0;
-  border: 10px double #AA6C39;
-  float: left;
+  border: 12px double #801515;
+  display: inline-block;
   width: 350px;
   height: 270px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 110px;
+  margin-right: 30px;
+  margin-bottom: 20px;
 }
 
 .item-container {
-  float: left;
-  display: block;
-  margin-left: 10px;
-  margin-right: 30px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .item-container h2 {
-  color: #2D882D;
-  text-shadow:1px 1px 3px #55AA55, 1px 1px 3px #55AA55;
+  color: #004400;
   text-align:left;
+  -webkit-text-stroke: 1px #88CC88; 
 }
