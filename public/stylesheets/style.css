@@ -34,6 +34,10 @@ a {
   background-attachment: fixed;
 }
 
+div#contact {
+  font-weight: bold;
+}
+
 #main {
   margin: 0 auto;
   max-width: 75%;
@@ -109,5 +113,5 @@ nav button:hover {
 .item-container h2 {
   color: #004400;
   text-align:left;
-  -webkit-text-stroke: 1px #55AA55; 
+  -webkit-text-stroke: 1px #88CC88; 
 }
