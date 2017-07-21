@@ -113,5 +113,11 @@ nav button:hover {
 .item-container h2 {
   color: #004400;
   text-align:left;
-  -webkit-text-stroke: 1px #88CC88; 
+  -webkit-text-stroke: 1px #88CC88;
+}
+
+.shopify-buy-frame--product {
+  background-color: linen;
+  padding: 20px;
+  display: inline;
 }
