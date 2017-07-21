@@ -37,6 +37,7 @@ a {
 
 div#contact {
   font-weight: bold;
+  text-shadow: .2px .2px .2px #fff, .2px .2px .2px #fff;
 }
 
 #main {
