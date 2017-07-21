@@ -8,10 +8,22 @@ body {
 }
 
 #col {
+  width: 100%;
+  display: block;
   text-align: center;
-  -moz-column-count: 3;
-  -webkit-column-count: 3;
-  column-count: 3;
+}
+
+#col h3 {
+  color: #004400;
+  text-align: center;
+  -webkit-text-stroke: 1px #88CC88;
+  text-shadow: 1px 1px 1px #fff, 1px 1px 1px #fff;
+  font-size: 27px;
+}
+
+.inside-col {
+  display: inline-block;
+  margin: 10px 20px;
 }
 
 a {
@@ -110,6 +122,7 @@ nav button:hover {
 
 .menu-container {
   width: 100%;
+  display: block;
   position: relative;
 }
 
