@@ -140,6 +140,18 @@ nav button:hover {
   font-weight: bold;
 }
 
+.item-container h2 {
+  color: #004400;
+  text-align:left;
+  -webkit-text-stroke: 1px #88CC88;
+}
+
+.shopify-buy-frame--product {
+  background-color: linen;
+  padding: 20px;
+  display: inline;
+}
+
 .twelve-oz-price p {
   color: #000000;
   text-align: center;
