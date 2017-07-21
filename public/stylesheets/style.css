@@ -156,17 +156,18 @@ div#contact {
 
 .image-container {
   margin: 0 auto;
-  padding: 0% 16%;
+  width: 100%;
+  display: block;
 }
 
 #menu-image1 {
   margin: 0 auto;
-  padding: 0% 14%;
   border: 12px double #801515;
   display: inline-block;
   width: 350px;
   height: 270px;
-  margin-right: 10%;
+  margin-right: 10px;
+  margin-left: 8%;
 }
 
 #menu-image2 {
@@ -174,10 +175,15 @@ div#contact {
   display: inline-block;
   width: 350px;
   height: 270px;
-/*  margin-top: 10px;
-  margin-left: 40px;
-  margin-right: 30px;
-  margin-bottom: 10px;*/
+  margin-right: 10px;
+}
+
+#menu-image3 {
+  border: 12px double #801515;
+  display: inline-block;
+  width: 350px;
+  height: 270px;
+
 }
 
 .menu-container h2 {
@@ -192,7 +198,7 @@ div#contact {
   color: #000000;
   text-align: left;
   font-size: 17px;
-}
+  }
 
 .drink-menu-items {
   margin: 0 auto;
@@ -248,6 +254,11 @@ div#contact {
   font-size: 17px;
 }
 
+.pastry-menu-items {
+  margin: 0 auto;
+  padding: 0% 14%;
+}
+
 .pastry-container {
   display: inline-block;
   margin-left: 230px;
@@ -261,11 +272,23 @@ div#contact {
   font-weight: bold;
 }
 
+.pastry-price p {
+  color: #000000;
+  text-align: center;
+  font-size: 17px;
+}
+
 .with-extras {
   display: inline-block;
   vertical-align: top;
   margin-left: 80px;
   font-weight: bold;
+}
+
+.with-extras p {
+  color: #000000;
+  text-align: center;
+  font-size: 17px;
 }
 
 nav {
