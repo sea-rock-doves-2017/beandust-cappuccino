@@ -86,7 +86,7 @@ nav button:hover {
 .header {
   text-align: center;
   color: #801515;
-  -webkit-text-stroke: 1px #FFAAAA; 
+  -webkit-text-stroke: 1px #FFAAAA;
   text-shadow: 1px 1px 1px #FFFFFF, 1px 1px 1px #FFFFFF;
   font-size: 40px;
 }
@@ -102,21 +102,34 @@ nav button:hover {
   position: relative;
 }
 
-.menu-images {
+.image-container {
+  margin: 0 auto;
+  padding: 0% 16%;
+}
+
+#menu-image1 {
   border: 12px double #801515;
   display: inline-block;
   width: 350px;
   height: 270px;
-  margin-top: 10px;
+  margin-right: 10%;
+}
+
+#menu-image2 {
+  border: 12px double #801515;
+  display: inline-block;
+  width: 350px;
+  height: 270px;
+/*  margin-top: 10px;
   margin-left: 40px;
   margin-right: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 10px;*/
 }
 
 .menu-container h2 {
   color: #004400;
   text-align: left;
-  -webkit-text-stroke: 1px #88CC88; 
+  -webkit-text-stroke: 1px #88CC88;
   text-shadow: 1px 1px 1px #fff, 1px 1px 1px #fff;
   font-size: 27px;
 }
@@ -125,6 +138,11 @@ nav button:hover {
   color: #000000;
   text-align: left;
   font-size: 17px;
+}
+
+.menu-items {
+  margin: 0 auto;
+  padding: 0% 14%;
 }
 
 .item-container {
