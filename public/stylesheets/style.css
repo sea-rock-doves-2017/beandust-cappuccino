@@ -218,16 +218,7 @@ div#contact {
   -webkit-text-stroke: 1px #88CC88;
 }
 
-.product {
-  background-color: linen;
-  padding: 20px;
-  float: left;
-  height: 500px;
-}
 
-.product-container {
-  text-align: center;
-}
 
 .twelve-oz-price p {
   color: #000000;
@@ -301,3 +292,14 @@ nav button:hover {
   color: white;
   font-family: 'Dosis', sans-serif;
 }
+
+.product {
+  background-color: linen;
+  padding: 20px;
+  float: left;
+  height: 500px;
+}
+
+/*.product-container {
+  text-align: center;
+}*/
