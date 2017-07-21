@@ -26,3 +26,22 @@ a {
 .each {
   padding: 10px;
 }
+
+.quote {
+  text-align: center;
+  font-style: italic;
+}
+
+.content {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.source {
+  text-align: center;
+  margin: 0;
+  padding: 0
+}
