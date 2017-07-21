@@ -22,7 +22,8 @@ a {
     float: left;
     height: 158px;
     margin-left: 158px;
-}​
+    margin-top: 20px;
+}
 
 .each {
   padding: 10px;
@@ -138,9 +139,22 @@ nav button:hover {
   font-weight: bold;
 }
 
+.twelve-oz-price p {
+  color: #000000;
+  text-align: center;
+  font-size: 17px;
+}
+
 .sixteen-oz-price {
   display: inline-block;
   vertical-align: top;
   margin-left: 80px;
   font-weight: bold;
 }
+
+.sixteen-oz-price p {
+  color: #000000;
+  text-align: center;
+  font-size: 17px;
+}
+
