@@ -137,10 +137,11 @@ div#contact {
   background-color: #FFD1AA;
   color: #552600;
   border-radius: 10px;
-  width: 75%;
+  height: 200px;
   text-align: center;
   font-family: 'Pacifico', cursive;
   font-size: 90px;
+  margin-bottom: -100px;
 }
 
 .title {
@@ -224,16 +225,7 @@ div#contact {
   -webkit-text-stroke: 1px #88CC88;
 }
 
-.product {
-  background-color: linen;
-  padding: 20px;
-  float: left;
-  height: 500px;
-}
 
-.product-container {
-  text-align: center;
-}
 
 .twelve-oz-price p {
   color: #000000;
@@ -334,3 +326,25 @@ nav button:hover {
   color: white;
   font-family: 'Dosis', sans-serif;
 }
+
+.product {
+  background-color: linen;
+  padding: 20px;
+  float: left;
+  height: 500px;
+}
+
+#ack {
+  width: 50%;
+  margin: 0 200px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.logo {
+  margin-top: 175px;
+}
+
+/*.product-container {
+  text-align: center;
+}*/
